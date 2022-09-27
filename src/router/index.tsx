@@ -7,8 +7,8 @@ export interface IRoute{
 }
 
 export enum RouteNames{
-    LOGIN='/login',
-    EVENT='/'
+    LOGIN='/CalendarReact/login',
+    EVENT='/CalendarReact'
 }
 
 export const privateRoutes:IRoute[]=[
