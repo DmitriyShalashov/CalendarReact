@@ -3,7 +3,7 @@ import { IUser } from "../models/types";
 
 export default class UserService{
     static async getUsers():Promise<AxiosResponse<IUser[]>> {
-        return axios.get<IUser[]>('./users.json')
+        return axios.get<IUser[]>('users.json')
     }
     static checkAuth(){
         const user={} as IUser
